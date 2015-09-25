@@ -31,6 +31,10 @@
             <scope>test</scope>
         </dependency>
         <!-- end::tests[] -->
+        <dependency>
+        	<groupId>org.springframework.boot</groupId>
+        	<artifactId>spring-boot-starter-data-solr</artifactId>
+        </dependency>
     </dependencies>
 
     <properties>
